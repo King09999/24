@@ -20,8 +20,8 @@ just write this in it : ```KEY = "YOUR STREAM KEY"```
 
 # PROPER RUNNING STEPS
 
-1) `git clone https://github.com/korrykatti/omy-live-stream-source/`
-2) `cd omy-live-stream-source `
+1) `git clone https://github.com/King09999/24/`
+2) `cd 24`
 3) `pip install flask`
 4) make a .env file 
 5) in the .env file make a variable `KEY`
