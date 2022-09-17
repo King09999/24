@@ -4,13 +4,13 @@
 
 # Configurer youtube avec une résolution 720p. La vidéo n'est pas scalée.
 
-VBR="1000k"                                    # Bitrate de la vidéo en sortie
+VBR="6000k"                                    # Bitrate de la vidéo en sortie
 FPS="60"                                       # FPS de la vidéo en sortie
 QUAL="ultrafast"                                  # Preset de qualité FFMPEG
 YOUTUBE_URL="rtmp://x.rtmp.youtube.com/live2"  # URL de base RTMP youtube
 
 SOURCE="video.mp4"              # Source UDP (voir les annonces SAP)
-KEY="$KEY"                                     # Clé à récupérer sur l'event youtube
+KEY="gbmd-uu01-3e80-ha3m-ahfc"                                     # Clé à récupérer sur l'event youtube
 
 ffmpeg \
     -stream_loop -1 -i "$SOURCE" -deinterlace \
