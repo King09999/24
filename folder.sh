@@ -4,13 +4,13 @@
 
 # Configurer youtube avec une résolution 720p. La vidéo n'est pas scalée.
 
-VBR="2500k"                                    # Bitrate de la vidéo en sortie
-FPS="30"                                       # FPS de la vidéo en sortie
+VBR="6000k"                                    # Bitrate de la vidéo en sortie
+FPS="60"                                       # FPS de la vidéo en sortie
 QUAL="medium"                                  # Preset de qualité FFMPEG
 YOUTUBE_URL="rtmp://a.rtmp.youtube.com/live2"  # URL de base RTMP youtube
 
 FOLDER="videos"                                    # Dossier source
-KEY="PUT YOUR KEY THERE"                                     # Clé à récupérer sur l'event youtube
+KEY="gbmd-uu01-3e80-ha3m-ahfc"                                     # Clé à récupérer sur l'event youtube
 
 SOURCE=""
 n=0
